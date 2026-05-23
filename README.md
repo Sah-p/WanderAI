@@ -1,6 +1,6 @@
 # 🌍 WanderAI — AI Powered Travel Planner
 
-A full-stack MERN + AI travel planner app with trip generation, chatbot, admin dashboard, authentication, and more.
+ AI travel planner app with trip generation, chatbot, admin dashboard, authentication and more.
 
 ---
 
