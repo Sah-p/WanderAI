@@ -157,25 +157,13 @@ Admin sees: Dashboard, Charts, All Users, All Trips, All Messages
 
 | Feature | Description |
 |---------|-------------|
-| 🔐 JWT Auth | Secure login/signup with token-based auth |
-| 🤖 AI Trip Generator | Generates full day-wise itineraries using DeepSeek AI |
-| 💾 Save Trips | Users can save and view their own trips |
-| 🗨️ AI Chatbot | Travel assistant chatbot powered by AI |
-| 🗺️ Destinations | Browse 9 popular Indian destinations |
-| 📩 Contact Form | Users can send messages to admin |
-| 🛠️ Admin Dashboard | Manage users, trips, contacts + live charts |
-
----
-
-## 🔒 Security Features (All Applied)
-
-- ✅ JWT token sent automatically with every API request
-- ✅ Admin credentials stored in `.env` (not hardcoded)
-- ✅ `authMiddleware` protects all sensitive routes
-- ✅ `adminMiddleware` protects admin-only routes
-- ✅ Users can only see/delete their own trips
-- ✅ Passwords hashed with bcrypt (never stored plain)
-- ✅ Delete actions require confirmation dialog
+|  JWT Auth | Secure login/signup with token-based auth |
+|  AI Trip Generator | Generates full day-wise itineraries using DeepSeek AI |
+|  Save Trips | Users can save and view their own trips |
+|  AI Chatbot | Travel assistant chatbot powered by AI |
+| Destinations | Browse 9 popular Indian destinations |
+| Contact Form | Users can send messages to admin |
+| Admin Dashboard | Manage users, trips, contacts + live charts |
 
 ---
 
