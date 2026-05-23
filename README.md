@@ -104,8 +104,8 @@ node server.js
 
 You should see:
 ```
-✅ MongoDB Connected
-🚀 Server running on http://localhost:5000
+MongoDB Connected
+Server running on http://localhost:5000
 ```
 
 > For auto-restart on file changes use: `npx nodemon server.js`
@@ -193,16 +193,3 @@ Admin sees: Dashboard, Charts, All Users, All Trips, All Messages
 | AI | OpenRouter API (DeepSeek model) |
 
 ---
-
-## ❓ Common Errors & Fixes
-
-| Error | Fix |
-|-------|-----|
-| `MongoDB connection failed` | Make sure MongoDB is running (Step 2) |
-| `401 Unauthorized` on API calls | Check that token is saved in localStorage after login |
-| `403 Forbidden` on admin routes | Login with admin credentials from `.env` |
-| AI trip not generating | Check your `OPENROUTER_API_KEY` in `.env` |
-| `CORS error` in browser | Make sure backend is running on port 5000 |
-| Port 5173 already in use | Run `npm run dev -- --port 3000` |
-| Trips page shows empty | Generate and save a trip from the Home page first |
-| Bar chart shows nothing | No trips saved yet — generate some first |
